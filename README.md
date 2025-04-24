@@ -68,7 +68,7 @@ http://localhost:5000/ → Retorna mensagem padrão
 http://localhost:5000/env → Retorna valor da variável MESSAGE do .env
 
 
-## 🤝 Contribuindo
+## Contribuindo
 
 Sinta-se à vontade para clonar o repositório, fazer melhorias ou abrir pull requests! Para começar:
 
