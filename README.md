@@ -32,20 +32,20 @@ meuapp/
 ### Para rodar localmente:
 
 1. Clone o repositório:
-    ```bash
+    
     git clone https://github.com/bjlelis/flask_docker.git
     cd flask-docker
-    ```
+    
 
 2. Instale as dependências:
-    ```bash
+    
     pip install -r requirements.txt
-    ```
+    
 
 3. Execute a aplicação:
-    ```bash
+    
     python app.py
-    ```
+    
 
 Isso vai rodar o Flask localmente na porta `5000` (por padrão). Acesse no navegador `http://localhost:5000/`.
 
@@ -54,7 +54,6 @@ Isso vai rodar o Flask localmente na porta `5000` (por padrão). Acesse no naveg
 
 1. Build da imagem:
 
-```bash
 docker build -t flask-hello .
 
 2. Executando o container:
@@ -74,17 +73,17 @@ Sinta-se à vontade para clonar o repositório, fazer melhorias ou abrir pull re
 
 1. Faça um fork deste repositório
 2. Crie uma branch com sua feature:
-    ```bash
+    
     git checkout -b minha-feature
-    ```
+    
 3. Commit suas mudanças:
-    ```bash
+    
     git commit -am 'Adiciona nova feature'
-    ```
+    
 4. Envie a branch para o repositório remoto:
-    ```bash
+    
     git push origin minha-feature
-    ```
+    
 5. Abra um Pull Request.
 
 
