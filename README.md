@@ -1,4 +1,4 @@
-# Flask + Docker
+# Flask com Docker:
 
 Este projeto é um exemplo simples de aplicação Flask rodando em Docker, com estrutura organizada e suporte a variáveis de ambiente. Ideal para quem está aprendendo Docker ou Flask e quer um ponto de partida com boas práticas.
 
@@ -14,15 +14,13 @@ Este projeto é um exemplo simples de aplicação Flask rodando em Docker, com e
 ## Estrutura do projeto:
 
 meuapp/
-├── app/
-│   ├── __init__.py
-│   └── routes.py
-├── app.py
-├── requirements.txt
-├── Dockerfile
-├── .dockerignore
-├── .env
-└── README.md
+- app/__init__.py e app/routes.py
+- app.py
+- requirements.txt
+- Dockerfile
+- .dockerignore
+- .env
+- README.md
 
 ## Requisitos:
 - Python 3.11+
@@ -35,7 +33,7 @@ meuapp/
 
 1. Clone o repositório:
     ```bash
-    git clone https://github.com/seu-usuario/flask-docker.git
+    git clone https://github.com/bjlelis/flask_docker.git
     cd flask-docker
     ```
 
@@ -54,16 +52,16 @@ Isso vai rodar o Flask localmente na porta `5000` (por padrão). Acesse no naveg
 
 ## Como rodar com Docker
 
-1. **Build da imagem:**
+1. Build da imagem:
 
 ```bash
 docker build -t flask-hello .
 
-2. **Executando o container:**
+2. Executando o container:
 
 docker run --env-file .env -p 5000:5000 flask-hello
 
-3. **Acessar no navegador:**
+3. Acessar no navegador:
 
 http://localhost:5000/ → Retorna mensagem padrão
 
